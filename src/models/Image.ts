@@ -1,5 +1,4 @@
 import { Entity, Column, PrimaryGeneratedColumn, ManyToOne, JoinColumn } from 'typeorm';
-import orphanage from './Orphanage';
 import Orphanage from './Orphanage';
 
 @Entity('images')
